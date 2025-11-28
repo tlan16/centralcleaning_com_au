@@ -1,0 +1,18 @@
+@import url('base01.css');
+
+
+/* Make the thubms tile on the left */
+.pika-thumbs li{width: 90px; height:55px; margin: 5px 5px;}
+.pikachoose {
+	width: 550px;
+	position:relative;
+	float: none;
+	
+}
+.pika-stage {position: absolute;left:180px;}
+		
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+.jcarousel-skin-pika .jcarousel-container-vertical { width: 125px;height: 230px; padding: 20px 20px 20px 50px; overflow:hidden; margin-top:20px;}
+.jcarousel-skin-pika .jcarousel-clip-vertical { width:  125px; height: 230px;}
+.jcarousel-skin-pika .jcarousel-item-vertical { margin-top: 10px;}

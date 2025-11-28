@@ -1,0 +1,30 @@
+* { margin: 0px;
+padding: 0px; outline: 0;
+}
+#menu-vertical ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 95%;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #36C;	
+}
+#menu-vertical ul li {
+   background-image: url(../ima/BGMenuAboutUs.jpg);
+	background-repeat: repeat-x;
+}
+
+#menu-vertical ul li a {
+    color: #36C;
+    text-decoration: none;
+    
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#menu-vertical ul li a:hover {
+    background: #DCDDDB;
+   /* border-left: 10px solid #333;*/
+    color: #666;
+}

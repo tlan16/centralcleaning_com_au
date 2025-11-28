@@ -1,0 +1,83 @@
+
+h10{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color: #004A97;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	 width:150px;
+	
+	
+	
+}
+
+
+
+
+ h7 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color: #004A97;
+	text-decoration: none;
+	text-align: center;
+	padding-top:10px;
+	 
+}
+
+blockquote{
+	width: 180px;
+	height: 50px;
+	text-align: center;
+	
+	
+}
+
+.products{
+	width: 730px;
+	
+	/*height: 200px;*/
+	float: left;
+	}
+
+
+.content3{
+	float: left;
+	width: 220px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'dosis';
+	padding-bottom: 10px;
+	padding-Left: 0;
+	padding-right: auto;
+	margin-right: px;
+	margin-left: 18px;
+	margin-top: 20px;
+	padding-top: 0px;
+	background-color: #FFF;
+	background-image: url(file:///Macintosh%20HD/Applications/MAMP/htdocs/centralWeb/ima/ImaMachines/BGMachines.jpg);
+	background-repeat: repeat-x;
+	top: 0px;
+}
+
+.sidebar7 {
+	float: left;
+	/* width: 20%;*/
+	padding-bottom: 12px;
+	/*background-color: #FFFFFF;*/
+	padding: 10px 0;
+	margin: 10px;
+	
+}
+
+.sidebar8 {
+	float: center;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-left: 40px;
+	/*background-color: #FFFFFF;*/
+	
+	margin: 10px;
+	
+}

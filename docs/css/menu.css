@@ -1,0 +1,77 @@
+* { margin: 0px;
+padding: 0px; outline: 0;
+}
+#menu {
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0 auto; 
+	
+}
+
+#menu ul { list-style-type: none;
+
+}
+
+#menu ul li.nivel1 {
+	
+	margin: 0 auto;
+	float: left;
+	width: 14.1%;/*12.3%*/
+	border-right-width: 0.5px;
+	border-right-style: solid;
+	border-right-color: #666;
+	border-left-width: 0.5px;
+	border-left-style: solid;
+	border-left-color: #666;
+	background-color: #CCC;/* color del cuadro principal */
+	background-image: url(../ima/BGFooter.jpg);
+	background-repeat: repeat-x;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;/* color del texto del menu principal */
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	
+}
+#menu ul li:hover {position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	background-color: #CCC;/*color del cuadro principal - sobre*/
+	color: #1c75bc;/*color de la letra principal sobre*/
+	position: relative;
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+
+}
+#menu ul li ul {display: none;z-index:1000}
+
+
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+
+#menu ul li ul li a {
+	width: 160px;
+	padding: 6px 0px 6px 20px;
+	border-top-color: #000;
+	text-align: left;
+	background-color: #B6C8DC;/* color de fondo del menu desplegable - sobre*/
+}
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+	color: #1c75bc;/* color de la letra submenu sobre */
+	background-color: #D6E0EA;	/* color del fonde del submenu sobre */	
+}
+
+table.falsa {border-collapse:collapse;
+border:0px;
+float: left;
+position: relative;
+}

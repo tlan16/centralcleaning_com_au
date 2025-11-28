@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+a:link{
+	color: #0057a8;
+	/*text-decoration: none;*/
+	}	
+	
+a.address:visited{
+	text-decoration: underline;
+	color: #0057a8;
+	}	
+	
+a:hover {
+		color: #0099FF;
+	}
+	
+a.StoreLocator:link{
+	color: #333;
+	}	
+
+
+h12{
+	
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	color: #09397D;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bold;
+	
+	}
+
+h13{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+	padding-left: 10px;
+	}	
+	
+h14{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+	/*line-height: 10px;*/
+	}
+	
+h15{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 10px;
+	color: #666;
+	/*line-height: 15px;*/
+	}	
+	
+h16{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: right;
+	font-size: 15px;
+	}		
+	
+.maps{
+	/*position:relative;
+	clear: inherit;*/
+	width: 75%;
+	float: left;
+	margin-left: 2%;
+	
+}
+
+
+.square{
+	line-height: 17px;
+	/*margin-left: 20px;*/
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	float: left;
+	width: 52%;
+	background: #ebf3fd;
+	border-radius: .3em;
+	-webkit-box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	}
+	
+
+.mapsLocations{
+	margin-top: 10px;
+	float: left;
+	width:  20%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-right: 5%;
+	}
+	
+
+	
+.Square2{
+	float: left;
+	width: 70%;
+	
+}		
+
+.boton{
+	
+	margin-top: 15px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	clear:both;
+	background: #ebf3fd;
+	border-radius: .3em;
+	-webkit-box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	box-shadow: 2px 3px 4px rgba(0,0,0,.5);
+	}
+	
+.textima1{
+	width: 100%;
+  	margin: 0px 0px 0px 0px;
+ 	position: relative;
+	}
+
+.textima2 {
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	}
+
+.div-1e {
+ clear:both;
+}	

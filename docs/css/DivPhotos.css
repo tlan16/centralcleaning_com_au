@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.SunshinePhotos{
+	width:100%;
+	margin-left: 19%;
+ 	margin-right: 20px;
+	}
+
+.TasPhotos{
+	width:100%;
+	margin-left: 10%;
+ 	margin-right: 20px;
+	}
+
+
+
+.div-1a {
+ float:left;
+ width:15%;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-1b {
+ float:left;
+ width:15%;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-1c {
+ float:left;
+ width:15%;
+  margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-1d {
+ float:left;
+ width:15%;
+  margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-1e {
+ clear:both;
+}
+
+
+
+.Photos{
+	width:100%;
+	margin-left: 12%;
+ 	margin-right: 20px;
+	}
+	
+.Photos1{
+	width:100%;
+	margin-left: 25%;
+	margin-right: 20px;
+	}
+
+		
+
+
+.div-01 {
+ float:left;
+ width:15%;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-02 {
+ float:left;
+ width:15%;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-03 {
+ float:left;
+ width:15%;
+  margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-04 {
+ float:left;
+ width:15%;
+  margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-05 {
+ float:left;
+ width:15%;
+  margin-left: 5px;
+ margin-right: 5px;
+}
+
+.div-06 {
+ clear:both;
+}
+
+.tiraFotos{
+	width: 100%;
+	float: left;
+	background-image: url(../ima/BGTiraPhotos.png);
+	background-repeat: repeat-x;
+	}

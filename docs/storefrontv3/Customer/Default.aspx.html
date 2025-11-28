@@ -1,0 +1,190 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=9" /><title>
+	Storefront
+</title><link id="Link1" rel="shortcut icon" href="../favicon.ico" type="image/x-icon" /><link id="Link2" rel="icon" href="../favicon.ico" type="image/ico" />
+    <script src="../js/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui-1.12.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.modal.min.js" type="text/javascript"></script>
+    
+        <link href="../App_Themes/GeneralTheme/General.css%3Fversion=20201219.css" rel="Stylesheet" type="text/css" />
+        <link href="../App_Themes/StorefrontTheme/Storefront.css%3Fversion=20201219.css" rel="Stylesheet" type="text/css" />
+        <link href="../App_Themes/StyleSheet.css%3Fversion=20201219.css" rel="Stylesheet" type="text/css" />
+    <link href="../App_Themes/jquery-ui-1.12.1.min.css" rel="Stylesheet" type="text/css" /><link href="../App_Themes/jquery.modal.css" rel="Stylesheet" type="text/css" /><link href="../App_Themes/Storefronttheme/Storefront.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    
+    <form name="form1" method="post" action="Default.aspx.html" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA3NDcwNzc2Mg9kFgJmD2QWAgIDD2QWAgIDD2QWBgICDw8WAh4EVGV4dAWeAVdlbGNvbWUgdG8gQ2VudHJhbCBDbGVhbmluZyBTdXBwbGllcyAoQXVzdCkgUHR5LiBMaW1pdGVkICAgICAtICBQbGVhc2Ugbm90ZSBzdG9ja2NvZGVzIGJlZ2luaW5nIHdpdGggIjAiIGhhdmUgYmVlbiByZXBsYWNlZCBieSAiWicgLSBFZyAiMDIyNjYiIGlzIG5vdyAiWjIyNjYiZGQCCA9kFgQCDQ8PZBYCHgV2YWx1ZWVkAhEPDxYCHgdWaXNpYmxlaGQWBgIDDxAPFgIfAmhkZGRkAgUPDxYCHgdFbmFibGVkaGRkAgcPDxYCHwJoZGQCCg9kFgJmD2QWAgICDxYEHgRocmVmBSZtYWlsdG86d2ViYWRtaW5AY2VudHJhbGNsZWFuaW5nLmNvbS5hdR4JaW5uZXJodG1sBR93ZWJhZG1pbkBjZW50cmFsY2xlYW5pbmcuY29tLmF1ZGTXlDyfp1Xx/4OI+YfvRLqPz//JRbHQ25Yw2vlw/WBgPQ==" />
+
+
+<script src="../../StorefrontV3/ScriptResource.axd%3Fd=PhwsVoRHenNGd7DJerJLpaTorV0deBwdgAK-5UMXqzpXxQQTNM1JfmXy0PIeJ_fM4GA7_cbrIg1D57FxkYfkFT1YubSxf7Ap4OZavjVK_aGcT4bnA8gZtR2hGsP1DP6P0&amp;t=734d43f5" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1B532C9B" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAYHtGAxcIGi2sGnoNgCTJEDXwEtJrK/lD1haVJOQKajRbL7akOO8vwGPGrT5d8tl8ApTDGqyg1q39JPKWCFTXOn5avXtZoMfEjFkt9FtsE14ynmF5zmjw5HzwFx3C7I35ouXDg6ETfzv/Jq8G5WIBdxWcqml5KQ7s8DRDnCI82ytA==" />
+        
+    
+    <table width="100%">
+    <tr>
+        <!--Content Table-->
+        <td align="left" width="100%" bgcolor="#FFFFFF">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center">
+                        
+    <script type="text/javascript">
+        function GetScreenRes() {
+            document.form1.customerhome_screenwidth = screen.width;
+            document.form1.customerhome_screenheight = screen.height;
+            document.form1.ctl00$CustomerHome$screenwidth.value = screen.width;
+            document.form1.ctl00$CustomerHome$screenheight.value = screen.height;
+
+        }
+    </script>
+    <script type="text/javascript">
+        function chkTerms_ClientValidate(sender, args) {
+            args.IsValid = document.getElementById('CustomerHome_chkTerms').checked;
+        }
+
+    </script>
+    <script type="text/javascript">
+        function ShowPopupTermsAndConditions() {
+            $('#modalPopupTermsAndConditions').modal();
+        };
+    </script>
+    <script type="text/javascript">
+        function ShowPopupOnHoldCreditCheck() {
+            $('#modalPopupOnHoldCreditCheck').modal();
+        };
+    </script>
+    <div class="logontable">
+        <table class="tblogontable" width="100%" cellspacing="0">
+            <tr>
+                <td colspan="2" align="center">
+                    <img id="CustomerHome_imgLogoCorp" Align="center" src="../Images/ETCorpImage1.jpg" border="0" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span id="CustomerHome_SpacerlblMsg" class="Label" style="display:inline-block;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <span id="CustomerHome_lblMsg" class="Label"><font size="3">Welcome to Central Cleaning Supplies (Aust) Pty. Limited     -  Please note stockcodes begining with "0" have been replaced by "Z' - Eg "02266" is now "Z2266"</font></span>
+                    <input name="ctl00$CustomerHome$screenwidth" type="hidden" id="CustomerHome_screenwidth" />
+                    <input name="ctl00$CustomerHome$screenheight" type="hidden" id="CustomerHome_screenheight" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="CustomerHome_SpacerlblMsg2" class="Label" style="display:inline-block;"></span>
+                </td>
+                <td align="center">
+                    <span id="CustomerHome_lblMsg2" class="Label"><font size="3">If you are a returning shopper, please provide your logon and password.</font></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left">
+                    <span id="CustomerHome_lblErrorMsg" class="ErrMsg"><font color="Red"></font></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="CustomerHome_pnlLogin" style="display: flex;justify-content: center;">
+	
+                        <table width="100%" style="text-align: left; width: 400px;">
+                            <tr>
+                                <td>
+                                    <span id="CustomerHome_SpacerUsername" class="Label" style="display:inline-block;"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="CustomerHome_lblUserName" class="Label" style="display:inline-block;"><font size="3">Username</font></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input name="ctl00$CustomerHome$txtUserName" type="text" id="CustomerHome_txtUserName" class="Text" />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="CustomerHome_SpacerPassword" class="Label" style="display:inline-block;"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="CustomerHome_lblPassword" class="Label" style="display:inline-block;"><font size="3">Password</font></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input name="ctl00$CustomerHome$txtPassword" type="password" id="CustomerHome_txtPassword" class="Text" value="" />
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span id="CustomerHome_SpacerbtnLogin" class="Label" style="display:inline-block;"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" name="ctl00$CustomerHome$btnLogin" value="Log In" onclick="GetScreenRes();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$CustomerHome$btnLogin&quot;, &quot;&quot;, true, &quot;CheckTerms&quot;, &quot;&quot;, false, false))" id="CustomerHome_btnLogin" class="Button" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    
+</div>
+                </td>
+            </tr>
+            <tr class="trLogonSpacer03">
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a id="CustomerHome_lbtnForgotPassword" href="../ForgotPassword.aspx.html">Forgot your password</a>
+                </td>
+            </tr>
+            <tr class="trLogonSpacer04">
+                <td colspan="2"></td>
+            </tr>
+            <tr id="CustomerHome_trContactEmail">
+	<td colspan="2" align="center">
+                    <span id="CustomerHome_lblAnyProblemsContact" class="Label">Any problems contact:</span><a href="mailto:webadmin@centralcleaning.com.au" id="CustomerHome_lbtnAnyproblems">webadmin@centralcleaning.com.au</a>
+                </td>
+</tr>
+
+        </table>
+    </div>
+    <div id="modalPopupTermsAndConditions" class="modalPopupTermsAndConditions" style="display: none">
+        <span id="CustomerHome_lblTermsDescription" class="modalPopupTermsAndConditionsText"></span>
+    </div>
+    <div id="modalPopupOnHoldCreditCheck" class="modalPopupOnHoldCreditCheck" style="display: none">
+        <span id="CustomerHome_lblPopupOnHoldCreditCheck" class="modalPopupOnHoldCreditCheckText"></span>
+    </div>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
